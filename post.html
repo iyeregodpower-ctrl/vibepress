@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibePress - Entertainment News & Celebrity Updates</title>
+<meta name="description" content="Latest entertainment news, celebrity gossip, movies, music, and TV updates from VibePress.">
+<meta name="keywords" content="entertainment, movies, music, celebrities, TV shows">
+<meta name="author" content="VibePress">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- NAV BAR -->
+ <div class="progress-bar"></div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <span class="brand-dot"></span>
+      <span class="brand-name">VibePress</span>
+      <span class="brand-tag">Entertainment</span>
+    </a>
+
+    <ul class="nav-links">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="post.html" class="active">News</a></li>
+  <li><a href="categories.html">Categories</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+    <div class="nav-actions">
+      <form class="nav-search" action="#" method="get">
+        <input type="search" name="q" placeholder="Search celeb, movies, music..." aria-label="Search">
+      </form>
+      <a class="btn btn-primary" href="blog.html">Trending</a>
+    </div>
+
+    <button id="themeToggle">🌙</button>
+  </nav>
+</header>
+
+<section class="ticker">
+  <p><strong>Trending:</strong> Celebrity Breakups • Grammy Highlights • Top Box Office Hits • Viral TikTok Drama</p>
+</section>
+
+<!--POST HERO -->
+<section class="post-hero">
+  <img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=1400&q=60" alt="Entertainment headline">
+  <div class="post-hero-content">
+    <span class="category">Movies</span>
+    <h1>The Untold Story Behind Hollywood’s Biggest Blockbuster</h1>
+    <p>By Admin • March 2026 • 5 min read</p>
+  </div>
+</section>
+
+<section class="post-content">
+  <article>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Entertainment industry has evolved rapidly over the past decade. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quos officia eum sunt ipsum dolorem voluptate ullam deleniti placeat, praesentium et blanditiis alias laborum dolores dicta assumenda reiciendis, incidunt voluptatem...!</p>
+
+    <h2>Behind the Scenes</h2>
+    <p>Producers revealed exclusive insights into the making of this record-breaking movie...</p>
+
+    <blockquote>
+      "This film changed the way we look at modern cinema."
+    </blockquote>
+
+    <p>From casting challenges to unexpected production delays, the journey was nothing short of dramatic.</p>
+
+   <div class="author-box">
+  <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Author">
+  <div>
+    <h4>Written by John Carter</h4>
+    <p>Entertainment journalist covering Hollywood, music, and celebrity culture.</p>
+  </div>
+</div> 
+
+  </article>
+
+  <aside class="post-sidebar">
+    <h3>Related Posts</h3>
+    <p>Top 10 Movies of the Year</p>
+    <p>Most Anticipated Releases</p>
+    <p>Director Interviews</p>
+  </aside>
+</section>
+
+<section class="comments">
+  <h3>Leave a Comment</h3>
+  <textarea placeholder="Write your comment..."></textarea>
+  <button>Post Comment</button>
+</section>
+    
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-logo">
+      <h3>VibePress</h3>
+      <p>Your daily source of entertainment updates.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Celebrities</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <p>Instagram</p>
+      <p>Twitter</p>
+      <p>YouTube</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 VibePress. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+document.getElementById("themeToggle").onclick = function(){
+  document.body.classList.toggle("light");
+}
+</script>
+
+<script>
+window.addEventListener("scroll", function(){
+  const scrollTop = document.documentElement.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const progress = (scrollTop / scrollHeight) * 100;
+  document.querySelector(".progress-bar").style.width = progress + "%";
+});
+</script>
+</body>
+</html>
+

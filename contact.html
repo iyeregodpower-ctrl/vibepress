@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibePress - Entertainment News & Celebrity Updates</title>
+<meta name="description" content="Latest entertainment news, celebrity gossip, movies, music, and TV updates from VibePress.">
+<meta name="keywords" content="entertainment, movies, music, celebrities, TV shows">
+<meta name="author" content="VibePress">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+ <div class="progress-bar"></div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <span class="brand-dot"></span>
+      <span class="brand-name">VibePress</span>
+      <span class="brand-tag">Entertainment</span>
+    </a>
+
+    <ul class="nav-links">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="post.html">News</a></li>
+  <li><a href="categories.html">Categories</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+    <div class="nav-actions">
+      <form class="nav-search" action="#" method="get">
+        <input type="search" name="q" placeholder="Search celeb, movies, music..." aria-label="Search">
+      </form>
+      <a class="btn btn-primary" href="blog.html">Trending</a>
+    </div>
+
+    <button id="themeToggle">🌙</button>
+  </nav>
+</header>
+
+<section class="ticker">
+  <p><strong>Trending:</strong> Celebrity Breakups • Grammy Highlights • Top Box Office Hits • Viral TikTok Drama</p>
+</section>
+
+    
+<section class="contact-page">
+  <h1>Contact Us</h1>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-logo">
+      <h3>VibePress</h3>
+      <p>Your daily source of entertainment updates.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Celebrities</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <p>Instagram</p>
+      <p>Twitter</p>
+      <p>YouTube</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 VibePress. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+document.getElementById("themeToggle").onclick = function(){
+  document.body.classList.toggle("light");
+}
+</script>
+</body>
+</html>
