@@ -652,9 +652,27 @@ section.comments button {
   margin: 60px auto;
   padding: 0 16px;
 }
-
 @media (max-width: 768px) {
-  .about-page {
-    padding: 0 12px;
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
   }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+}
+.post-info .category,
+.highlight-tag {
+  display: inline-block;
+  background: rgba(255, 61, 127, 0.15);
+  color: #ff3d7f;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
