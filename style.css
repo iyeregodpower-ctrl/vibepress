@@ -701,3 +701,41 @@ section.comments button {
   font-weight: 600;
   margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+
+  /* Force nav layout */
+  .nav {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* Make nav links ONE horizontal row */
+  .nav-links {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    list-style: none;
+    flex: 0 0 auto;
+  }
+
+  .nav-links a {
+    white-space: nowrap;
+    font-size: 14px;
+  }
+
+  /* Hide scrollbar */
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+}
